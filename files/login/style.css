@@ -1,0 +1,69 @@
+body  {
+    background-image: url("wallpaper.png");
+    background-repeat: no-repeat;
+}
+
+*:focus {
+    outline: none;
+}
+
+.container{
+    background-color: rgba(38, 57, 77, 0.2);
+    border: 5px solid;
+    margin: 8% auto;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.login{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login input{
+    background: transparent;
+    height: 40p;
+    width: 300px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    border: none;
+    border-bottom: 3px solid black;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.password{
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.password input{
+    background: transparent;
+    height: 40p;
+    width: 300px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    border: none;
+    border-bottom: 3px solid black;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+button{
+    margin-top: 40px;
+    height: auto;
+    border: none;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    background-color: transparent;
+}
